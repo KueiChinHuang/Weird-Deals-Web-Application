@@ -1,0 +1,73 @@
+{
+    "companyName": "Weird Inc.",
+    "headOffice": "Barrie, Ontario",
+    "established": 2019,
+    "active": true,
+    "topWeirds": [
+        {
+            "name": "A pigeon mask",
+            "price": 27.48,
+            "type": "Kids' Room Décor",
+            "descriptions": [
+                "6.25' high",
+                "3.5' wide",
+                "Elope incorporated",
+                "Plastic Frame",
+                "Spot clean"
+            ],
+            "image": "41V-M6P2y2L.jpg"
+        },
+        {
+            "name": "A pound of replica human fat",
+            "price": 23.73,
+            "type": "Examination Supplies & Consumables",
+            "descriptions": [
+                "Brand Name: Nasco",
+                "Item Depth: inches",
+                "Material: Plastic , Vinyl",
+                "Model Number: WA14533",
+                "Number of Items: 1"
+            ],
+            "image": "human-fat.jpg"
+        },
+        {
+            "name": "A horror movie sound maker",
+            "price": 299.00,
+            "type": "Studio Recording Equipment",
+            "descriptions": [
+                "HORROR SOUND. The unique instrument --- Waterphone creates a weird sound that could be heard in horror movie and other music media.",
+                "STAINLESS IRON. All body is made of stainless iron, with total 30 metal sticks around. Body Diameter: 10.24in (26cm), Height of product: 15.75in (40cm).",
+                "PLAYING THEORY. Add some water from the tube to the bottom, use implement to vibrate the sticks, and shake the body, then hear the sound. Also, you can try your own idea of playing.",
+                "HAND-MADE PRODUCTION. The product is totally handmade, and for precision, each item takes 3-5 days to produce.",
+                "INSTRUMENT for MOVIE MAKER and HOBBYIST. If you want to add some weird sounds in the movie or other media, you could create your own music with the aid of this instrument."
+            ],
+            "image": "A1rJ7zjPkdL._SL1500_.jpg"
+        },
+        {
+            "name": "A Cthulhu hat",
+            "price": 8.90,
+            "type": "Skullies & Beanies",
+            "descriptions": [
+                "Don't worry, not allergic and not itchy, Cool warm octopus beanie protect you from cold wind!( ^_^ )",
+                "Elastic closure",
+                "Material: woolen, soft and comfortable, hand cold wash better",
+                "Elastic hat fits for unisex adults or teens, head diameter: about 24-28cm",
+                "It has holes for eyes and mouth, keep your entire face warm in winter"
+            ],
+            "image": "cthulu-hat.jpg"
+        },
+        {
+            "name": "A fish pencil case",
+            "price": 3.97,
+            "type": "Pen, Pencil & Marker Cases",
+            "descriptions": [
+                "Pen Pouch - Weird and Funny Design",
+                "It looks like a real fish.",
+                "But it has no Fishy Smell!",
+                "Include : 1 pouch",
+                "12.20 x 5.51 inches"
+            ],
+            "image": "fish-pencil-case.jpg"
+        }
+    ]
+}

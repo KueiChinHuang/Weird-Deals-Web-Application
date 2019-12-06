@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Wierd Things on Amazon</title>
+  <!-- add css to make it look nice -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- link to js -->
+  <script src="js/main.js" async></script>
+</head>
+
+<body>
+  <!-- step one, add some sectioning elements -->
+  <header>
+
+
+  </header>
+  <section>
+
+
+  </section>
+  <h3>Our location:</h3>
+  <!--The div element for the map -->
+  <div id="map"></div>
+  <script>
+    // Initialize and add the map
+    function initMap() {
+      // The location of Uluru
+      var uluru = { lat: 44.412574, lng: -79.666624 };
+      // The map, centered at Uluru
+      var map = new google.maps.Map(
+        document.getElementById('map'), { zoom: 13, center: uluru });
+      // The marker, positioned at Uluru
+      var marker = new google.maps.Marker({ position: uluru, map: map });
+    }
+  </script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAD_ZVkVpOTlvtm7hDiB1sz2yx5UCV5lCg&callback=initMap">
+  </script>
+  <footer>
+    Copyright &copy; 2019 - Kuei-Chin Huang - 200397841
+    <div id="plemx-root"></div>
+
+  </footer>
+</body>
+
+</html>
