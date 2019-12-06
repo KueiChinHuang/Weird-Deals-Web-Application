@@ -5,7 +5,7 @@ let header = document.querySelector('header');
 let section = document.querySelector('section');
 
 //Step Two - create a variable to store request URL 
-let requestURL = "https://kueichinhuang.github.io/Json/weird.json";
+let requestURL = "https://kueichinhuang.github.io/Weird-Deals-Web-Application/weird.json";
 
 // Step Three - create a new XHR object 
 let request = new XMLHttpRequest(); 
@@ -63,7 +63,7 @@ function topWeirds(jsonObj) {
     let list = document.createElement('ul');
     
     //grab the data associated with image to set the src and alt attribute
-    img.setAttribute('src', 'https://kueichinhuang.github.io/Json/img/' + topWeirds[i].image);
+    img.setAttribute('src', 'https://kueichinhuang.github.io/Weird-Deals-Web-Application/img/' + topWeirds[i].image);
     img.setAttribute('alt', topWeirds[i].image );
     
     h2.textContent = topWeirds[i].name; 
